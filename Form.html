@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form for the Readers to Fill in</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Kalam&family=Kaushan+Script&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="webpage3">
+        <header>
+            <!--Table of content-->
+            <nav>
+                <a href="index.html">What Make a Great Comics or Animation?</a>
+                |
+                <a href="Difference.html">The Difference Between Good and Bad</a>
+                |
+                <a href="Experience.html">My Process of Creating a Webcomic</a>
+                |
+                <a href="Contact.html">About me</a>
+            </nav>
+            <!--Heading of the webpage-->
+            <h1 class="webpage_title">What are Your Thoughts?</h1>
+        </header>
+        <form action="" method="get">
+            <!--User's Details-->
+            <fieldset>
+                <legend>Your Details</legend>
+                <!--User's Name-->
+                <label>
+                    Name:
+                    <input type="text" name="name" maxlength="100">
+                </label>
+                <br>
+                <!--User's Email-->
+                <label>
+                    Email:
+                    <input type="email" name="email" maxlength="100">
+                </label>
+            </fieldset>
+            <br>
+            <!--User's Opinions-->
+            <fieldset>
+                <legend>Your Thoughts</legend>
+                <!--User's Agreement-->
+                <p>
+                    Do you agree with what I write?
+                    <label>
+                        <input type="radio" name="agreement" value="yes">
+                        yes
+                    </label>
+                    <label>
+                        <input type="radio" name="agreement" value="no">
+                        no
+                    </label>
+                    <label>
+                        <input type="radio" name="agreement" value="somewhat">
+                        somewhat
+                    </label>
+                </p>
+                <p>
+                    <label for="why_not_agree">If you select no or somewhat, please write why:</label>
+                    <br><br>
+                    <textarea rows="4" cols="40" id="why_not_agree">Enter here...</textarea>
+                </p>
+                <!--User's Personal Opinions-->
+                <p>
+                    <label for="genres">What's your favorite genre?</label>
+                    <select name="genres">
+                        <option value="romance">Romance</option>
+                        <option value="drama">Drama</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="action">Action</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="sci-fi">Sci-Fi</option>
+                        <option value="mystery">Mystery</option>
+                        <option value="horror">Horror</option>
+                        <option value="thriller">Thriller</option>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="user_opinion">What animations or comics do you absolutely love? Do share your reasons if you are comfortable!</label>
+                    <br><br>
+                    <textarea rows="4" cols="40" id="why_not_agree">Enter here...</textarea>
+                </p>
+            </fieldset>
+            <br>
+            <!--Submit Button-->
+            <input type="submit" value="Submit">
+        </form>
+        <footer>
+            <!--Link to the top of the page or to another website-->
+            <a href="#webpage3">Return to the top</a> or <a href="https://www.nownovel.com/blog/what-makes-a-good-story/" target="_blank">check out this other awesome website!</a>            
+        </footer>
+    </div>
+</body>
+</html>
